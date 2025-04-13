@@ -1,0 +1,33 @@
+\documentclass[10pt,a4paper]{layout}
+\input{config}
+
+\begin{document}
+
+% Basic Info
+\input{sections/header}
+
+% Two-column layout
+\begin{paracol}{2}
+  
+  % ==== LEFT COLUMN ====
+  \input{sections/experience}
+  
+  \input{sections/education}
+
+  \input{sections/achievements}  
+
+  \input{sections/strengths}  
+
+  \switchcolumn
+  
+  % ==== RIGHT COLUMN ====
+    
+  \input{sections/skills}   
+  
+  \input{sections/projects} 
+
+  \input{sections/certifications}
+  
+\end{paracol}
+
+\end{document}
