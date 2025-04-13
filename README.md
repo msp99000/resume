@@ -9,10 +9,17 @@ Whether you're a new graduate or a senior engineer, this template helps you pres
 ## ✨ Features
 
 - ⚡️ Modern, two-column layout
+- ✅ ATS Friendly (82/100)
 - 📄 Full control over formatting
 - 🧑‍💻 Includes sections for projects, experience, education, skills, certifications, achievements, and more
 - 🌐 Works perfectly on [Overleaf](https://overleaf.com) — no setup required
 - 💻 Supports offline compilation (Linux, macOS, Windows)
+
+---
+
+<h2>🔖 Resume Preview</h2>
+
+<img src="preview.png" alt="Resume Preview" width="500"/>
 
 ---
 
@@ -72,6 +79,7 @@ pdflatex main.tex
 ├── config.tex              # Color and font setup
 ├── layout.cls              # Custom LaTeX class for styling
 ├── main.tex                # Main file to compile
+├── preview.png             # Resume Preview
 └── sections/
     ├── achievements.tex
     ├── certifications.tex
@@ -90,7 +98,7 @@ You can remove or add sections from main.tex as needed.
 Adjust color schemes or fonts in config.tex.
 
 
-#### 📄 License
+#### 🔑 License
 
 This template is released under the MIT License. You're free to use, modify, and share it.
 
