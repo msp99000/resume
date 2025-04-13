@@ -1,0 +1,40 @@
+% config.tex
+% Configuration settings for SuperDev Resume Template
+
+\RequirePackage{geometry}
+\geometry{
+    left=1cm,
+    right=1cm,
+    top=1cm,
+    bottom=1cm,
+}
+
+% Tighter spacing
+\renewcommand{\baselinestretch}{0.95}
+
+\usepackage{hyperref}
+\usepackage{amsmath}
+% \usepackage[solid]{fontawesome5}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=blue,
+}
+
+% Theme colors
+\definecolor{Primary}{HTML}{000000}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{2E2E2E}
+
+\colorlet{heading}{Primary}
+\colorlet{accent}{Primary}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+
+% Column spacing
+\setlength{\columnsep}{2em}
